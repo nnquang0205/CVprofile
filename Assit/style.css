@@ -1,0 +1,129 @@
+/*Adjust the structure and format of the website*/
+header {
+    display: block;
+}
+
+body {
+    background-color: #F5F5F5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+
+}
+
+.sidebar-left {
+    display: flex;
+    width: 20%;
+}
+
+.body-page {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    height: 100%;
+    -webkit-box-shadow: 0px 1px 0px 2px #000000; 
+    box-shadow: 0px 1px 0px 2px #000000;
+}
+
+.sidebar-right {
+    display: flex;
+    width: 20%;
+}
+
+
+header h1 {
+    text-align: center;
+}
+
+ul{
+    margin-right: 20px;
+}
+
+/*EDIT LEFT SIDE BODY*/
+.left-side {
+    display: flex;
+    flex-direction: column;
+    height: 1100px;
+    width: 60%;
+    background-color: white;
+
+}
+
+.left-side .avata {
+    width: 33% ;
+    height: 50% ;
+    margin: 20px;
+}
+
+.left-side .avata img { 
+	width: 100%;
+    height: 100%;
+    border-radius: 100px;
+}
+
+.left-side h2{
+    margin-left: 20px;
+}
+
+.left-side .title-content {
+    margin-left: 20px;
+}
+
+.work-exp-block {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.block-content-left{
+    border-top: solid 1px silver;
+}
+.block-content-left h5{
+    margin-left: 20px;
+}
+.block-content-left p{
+    margin-left: 20px;
+}
+
+
+
+/*EDIT RIGHT SIDE BODY*/
+.right-side{
+    display: flex;
+    flex-direction: column;
+    height: 1100px;
+    width: 40%;
+    background-color:#DCEAEC;
+
+}
+
+.right-side .profile-infor-basic {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 40%;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.right-side .profile-infor-basic p {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.block-content-right{
+    border-top: solid 1px silver;
+    height: 30%;
+}
+
+.block-content-right h3{
+    margin-left: 20px;
+}
+
+.block-content-right p{
+    margin-left: 20px;
+}
+
